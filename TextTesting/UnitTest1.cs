@@ -28,6 +28,13 @@ namespace TextTesting
 
         }
 
+        [Fact]
+        public void checked_length_null()
+        {
+            Assert.Equal(0, value.findLength(null));
+
+        }
+
         [Theory]
         [InlineData("")]
         public void Inline_value(string text)

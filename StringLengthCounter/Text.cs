@@ -8,8 +8,10 @@ namespace StringLengthCounter
 {
     public  class LengthHelper
     {
-        public int findLength(string value)
+        public int findLength(string? value)
         {
+            if (String.IsNullOrEmpty(value)) return 0;
+           
             return(value.Length);
 
         }

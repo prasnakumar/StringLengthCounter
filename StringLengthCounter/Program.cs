@@ -17,7 +17,7 @@ namespace StringLengthCounter
 
                     LengthHelper value = new LengthHelper();
 
-                    Console.WriteLine("Enter string:");
+                    Console.WriteLine("Enter string: ");
                     string string_name = Console.ReadLine();
 
                     int length = value.findLength(string_name);
